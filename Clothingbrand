@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bewakoof</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#E2F486] min-h-screen">
+    <!-- Navigation -->
+    <nav>
+        <div class="bg-[#C6F135] py-4">
+            <div class="container mx-auto px-8">
+                <div class="flex justify-between items-center py-2">
+                    <div class="text-2xl font-bold">
+                        <img src="https://images.bewakoof.com/web/ic-desktop-normal-bwkf-logo.svg" alt="Bewakoof Logo" class="h-8">
+                    </div>
+                    <div class="flex space-x-6 items-center">
+                        <a href="#" class="text-sm flex items-center">
+                            <img src="https://images.bewakoof.com/web/ic-web-head-home.svg" alt="Home" class="h-5 w-5 mr-2">
+                            Home
+                        </a>
+                        <a href="#" class="text-sm flex items-center">
+                            <img src="https://images.bewakoof.com/web/ic-web-head-about.svg" alt="About" class="h-5 w-5 mr-2">
+                            About
+                        </a>
+                        <a href="#" class="text-sm flex items-center">
+                            <img src="https://images.bewakoof.com/web/ic-web-head-phone.svg" alt="Contact" class="h-5 w-5 mr-2">
+                            Contact
+                        </a>
+                        <a href="#" class="text-sm flex items-center">
+                            <img src="https://images.bewakoof.com/web/ic-web-head-profile.svg" alt="Login" class="h-5 w-5 mr-2">
+                            Login
+                        </a>
+                        <button class="ml-2">
+                            <img src="https://images.bewakoof.com/web/ic-web-head-hamburger.svg" alt="Menu" class="h-6 w-6">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-[#E2F486] py-4">
+            <div class="container mx-auto">
+                <div class="flex justify-center space-x-8">
+                    <a href="#" class="text-sm hover:font-medium">Men</a>
+                    <a href="#" class="text-sm hover:font-medium">Women</a>
+                    <a href="#" class="text-sm hover:font-medium">Winterware</a>
+                    <a href="#" class="text-sm hover:font-medium">Plus size</a>
+                    <a href="#" class="text-sm hover:font-medium">Accessories</a>
+                    <a href="#" class="text-sm hover:font-medium">Sneakers</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="w-full px-4 py-4">
+        <div class="max-w-[2000px] mx-auto">
+            <div class="grid grid-cols-3 gap-4">
+                <!-- Public Weekend Rush -->
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=800&q=80" 
+                         alt="Weekend Rush" 
+                         class="w-full h-[400px] object-cover">
+                    <div class="absolute bottom-0 left-0 p-4 text-white">
+                        <div class="flex items-center">
+                            <img src="https://images.bewakoof.com/web/ic-star-yellow.svg" alt="Star" class="h-6 w-6 mr-2">
+                            <h2 class="text-2xl font-bold">PUBLIC</h2>
+                        </div>
+                        <h3 class="text-xl font-bold">WEEKEND RUSH</h3>
+                        <p class="text-3xl font-bold mt-2">UPTO 80% OFF</p>
+                    </div>
+                </div>
+
+                <!-- Joggers -->
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80" 
+                         alt="Joggers" 
+                         class="w-full h-[400px] object-cover">
+                    <div class="absolute bottom-0 left-0 p-4 text-white">
+                        <h2 class="text-3xl font-bold">JOGGERS</h2>
+                        <div class="mt-2">
+                            <p class="text-xl">BUY 2 AT</p>
+                            <p class="text-3xl font-bold">₹1699</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Summer Collection -->
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80" 
+                         alt="Summer Collection" 
+                         class="w-full h-[400px] object-cover">
+                    <div class="absolute bottom-0 left-0 p-4">
+                        <img src="https://images.bewakoof.com/uploads/grid/app/bewakoof-online-fashion-shopping-logo-1-1697625852.png" 
+                             alt="Bewakoof Logo" 
+                             class="h-8">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Get Started Button -->
+            <div class="text-center mt-8">
+                <button class="bg-[#C6F135] px-8 py-2 rounded-full text-black font-medium">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
